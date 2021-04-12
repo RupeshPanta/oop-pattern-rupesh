@@ -24,6 +24,8 @@ bin/test_hello
 bin/hello
 ```
 ## Clean-Build-Test Screen Capture
+## Owner 1: Rupesh Panta 
+## Owner 2: Mario Bravo
 
 ![clean-test-build.png]1.png)
 
