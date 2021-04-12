@@ -1,8 +1,22 @@
-## OOP-Assignment
+## OOP-Assignment for pattern designing
+
 ## Adapter Pattern Design
 
+## Who
+```
+ Owner 1: Rupesh Panta 
+ Owner 2: Mario Bravo
+```
+## Clean-Build-Test Screen Capture
+
+![clean-test-build.png](1.png)
 
 
+
+# Sources
+https://en.wikipedia.org/wiki/Adapter_pattern
+
+https://www.giacomodebidda.com/adapter-pattern-in-python/
 
 
 ## Build
@@ -23,19 +37,5 @@ bin/test_hello
 ```bash
 bin/hello
 ```
-## Clean-Build-Test Screen Capture
-```
- Owner 1: Rupesh Panta 
- Owner 2: Mario Bravo
-```
-![clean-test-build.png][1.png]
-
-
-
-# Sources
-https://en.wikipedia.org/wiki/Adapter_pattern
-
-https://www.giacomodebidda.com/adapter-pattern-in-python/
-
 
 
