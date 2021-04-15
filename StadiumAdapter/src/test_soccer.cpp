@@ -7,10 +7,23 @@
 
 using namespace std;
 
+TEST(BaseStadium, Adapter){
+  TrainingGround *trainingField = new trainingGround();
+  FootballStadium *footballField = new FootballStadium();
+  TrainingGround *adapter = new StadiumAdapter(footballField);
+   ASSERT_EQ(adapter->seats(), true);
+   ASSERT_EQ(adapter->hasFood(), "The stadium has food");
+
+}
+
 TEST(BaseStadium, BaseOut){
   TrainingGround *trainingField = new trainingGround();
   FootballStadium *footballField = new FootballStadium();
   TrainingGround *adapter = new StadiumAdapter(footballField);
+   ASSERT_EQ(trainingField->seats(), false);
+   ASSERT_EQ(trainingField->hasFood(), "Training Grounds have no food");
+   ASSERT_EQ(footballField->seats(), true);
+   ASSERT_EQ(footballField->hasFood(), "The stadium has food");
    ASSERT_EQ(adapter->seats(), true);
    ASSERT_EQ(adapter->hasFood(), "The stadium has food");
 

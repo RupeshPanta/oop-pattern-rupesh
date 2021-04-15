@@ -4,6 +4,7 @@
 using namespace std;
 
 class trainingGround : public TrainingGround {
+    public:
         bool seats(){
             return false;
         };
