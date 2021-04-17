@@ -19,13 +19,13 @@ class TrainingGround(abc.ABC):
 class FootballStadium(Stadium):
 
     def fans(self)->str:
-        return("The fans are football fans")
+        return("Fans are cheering")
 
     def seats(self)->bool:
         return True
 
     def hasfood(self)->str:
-        return("The Football stadium has food")
+        return("Food is available")
 
 class PractiseGround(TrainingGround):
     
@@ -33,17 +33,17 @@ class PractiseGround(TrainingGround):
         return False
 
      def hasfood(self)->str:
-        return ("Practise grounds have no food")
+        return ("No food available")
 
 class StadiumAdapter(TrainingGround):       
-    _Stadium = Stadium()
+    #aStadium = Stadium()
     def __init__(self, stadium)->None:
-        self._Stadium = stadium
+        self.aStadium = stadium
 
     def seats(self)->bool:
-        return self._Stadium().seats()
+        return self.aStadium.seats()
         
     def hasfood(self)->str:
-        return self._Stadium().hasfood()
+        return self.aStadium.hasfood()
 
 
