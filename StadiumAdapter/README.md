@@ -1,3 +1,13 @@
+# oop-pattern-design Assignment: AdapterPattern
+
+## Owner 2
+- [x] Mario Bravo
+
+
+## Proggramming Languagges
+- [x] C++ - I converted Rupesh's python code to c++ as owner 2.
+
+
 #### ```Tests inside of bin/test_soccer```
 	- Files unders src/
 	- /include/stadium.h trainingGround.h
