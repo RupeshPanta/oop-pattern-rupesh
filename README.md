@@ -12,7 +12,7 @@
 
 # Note:
 ```
-    Please check Owner1StadiumAdapter folder for owner1 and StadiumAdapter folder for owner 2
+    Please check Owner1StadiumAdapter folder for owner1 code and StadiumAdapter folder for owner2 code.
 ```
 # Python Testing Screenshot
 ![Adapterpattern1.png](1.png)
