@@ -36,9 +36,9 @@ class PractiseGround(TrainingGround):
         return ("No food available")
 
 class StadiumAdapter(TrainingGround):       
-    #aStadium = Stadium()
-    def __init__(self, stadium)->None:
-        self.aStadium = stadium
+    aStadium : Stadium
+    def __init__(self, _stadium:Stadium)->None:
+        self.aStadium = _stadium
 
     def seats(self)->bool:
         return self.aStadium.seats()
